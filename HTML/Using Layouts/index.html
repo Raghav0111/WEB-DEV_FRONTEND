@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Page</title>
+</head>
+<body>
+    <header>
+        <pre>
+        <h1> My Portfolio </h1>    
+        </pre>
+    </header>
+    <main>
+        <section>Education: IKGPTU Main Campus (CSE) | School (SSDPS) </section>
+        <section> Experiences: Zscaler | CDAC Intern </section>
+        <article>My Story: </article>
+        <a href = "https://www.google.com" target = "_main">Google</a> <!--To Open google in another tab-->
+        <!-- Now lets see how to do a clickable image-->
+        <a href = "https://www.google.com" target = "_main"> <img src = "https://1000logos.net/wp-content/uploads/2021/05/Google-logo.png" alt = "Google" height = "100" width = "100"> </a>
+        <aside>This is an add </aside>
+
+        <!--Div is a non semantic tag 
+        Div is a container used for other HTML elements
+        Its a block element (Takes full width)-->
+        <div><p>Hellow World</p>
+            <p>Namaste</p>
+            <p>HI</p>
+        </div>
+        <div><p>Bye</p>
+        <p>Goodbye</p>
+        <P>CIAO</P>
+        </div>
+        <!-- Div's basic application is when you want to change multiple elements at once. Then you can collect them in Div and arrange accordingly and change them-->
+        <span> Yeah Baby!</span> <!-- Its also a container used for other HTML Elements Inline Element(Takes width as per size)-->
+        <hr />
+        <!--Lists in HTML-->
+        <ul>
+            <li>Apple</li>
+                <ul>
+                    <li>Color: Red</li>
+                    <li>Season: Winter</li>
+                </ul>
+            <li>Mango</li>
+                <ul>
+                    <li>Color: Yellow</li>
+                    <li>Season: Summer</li>
+                </ul>
+            <li>Litchi</li>
+
+        </ul>
+
+        <ol>
+            <li>Apple</li>
+                <ol>
+                    <li>Color: Red</li>
+                    <li>Season: Winter</li>
+                </ol>
+            <li>Mango</li>
+                <ol>
+                    <li>Color: Yellow</li>
+                    <li>Season: Summer</li>
+                </ol>
+            <li>Litchi</li>
+
+        </ol>
+        <hr />
+
+        <!--Tables in HTML-->
+
+        <tr> </tr> <!--Used to Display Table Row-->
+        <td> </td> <!--Used to Display Table Data-->
+        <th> </th> <!--Used to Display Table Header-->
+
+        <table>
+            <caption>
+                Student Data
+            </caption>
+            
+            <thead>
+            <tr>
+                <th colspan="2">
+                    INFORMATION
+                </th>
+                <!-- <th> Name </th>
+                <th> Roll No</th> -->
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td> Raghav</td>
+                <td> 1818570</td>
+            </tr>
+            <tr>
+                <td> Shivam</td>
+                <td> 1818580</td>
+            </tr>
+            <tr>
+                <td> Shivansh</td>
+                <td> 1818583</td>
+            </tr>
+            </tbody>
+        </table>
+        <hr />
+        <!-- Form in HTML:
+        Forms are used to collect Data from the user
+        Eg- Sign Up/ Login/ Help requests/ contact me
+        <form>
+            Form Content
+        </form>  -->
+    </main>
+    <H3> Registration Form</H3>
+    <form action = "/action.php">
+        <input type = "text" placeholder = "Username">
+        <input type = "password" placeholder = "Password">
+        <br />
+    <h5> Select your class</h5>
+        <label for  = "101">
+        <input type = "radio" value = "Class XI" name = "class" id = "101"> Class XI
+        </label>
+        <br />
+        <label for = "102">
+        <input type = "radio" value = "Class XII" name = "class" id = "102"> Class XII
+        </label>
+    <br />
+
+    <h5> Select your subject </h5>
+
+        <label for = "math">
+            <input type = "checkbox" value = "math" name = "subject" id = "101"> Math
+        </label>
+        <label for = "Phy">
+            <input type = "checkbox" value = "Phy" name = "subject" id = "102"> Phy
+        </label>
+        <label for = "Chemisty">
+            <input type = "checkbox" value = "Chemistry" name = "subject" id = "103"> Chemistry
+        </label>
+        <label for = "Computer Science">
+            <input type = "checkbox" value = "computer Science" name = "subject" id = "104"> Computer Science
+        </label>
+        <br /> 
+
+        <!-- Something used for feedbacks -->
+        <textarea name = "feedback" id = "101" placeholder = "Please give your valuable feedback here"> Feedback</textarea>
+
+        <BR />  
+        <!--Use of Dropdowns using select tag-->
+        <select name = "city">
+            <option value = "Delhi">Delhi</option>
+            <option value = "Pune">Pune</option>
+            <option value = "Hyderabad">Hyderabad</option>
+            <option value = "Bengaluru">Bengaluru</option>
+        </select>
+
+    </form>
+
+    <!-- Iframe tag is used to show website inside website-->
+    <br />
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+    <footer>
+        <h5> Contact me at raghavkaushal.1999@gmail.com</h5>
+    </footer>
+</body>
+</html>
